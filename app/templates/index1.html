@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% import "_macros.html" as macros %}
+
+{% block title %}Flasky{% endblock %}
+
+
+
+{% block page_content %}
+<div class="page-header"></div>
+<center><img src="{{ url_for('static', filename='images/test.jpg') }}" /></center>
+
+
+{% endblock %}
